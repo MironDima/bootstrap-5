@@ -1,0 +1,180 @@
+:root{
+	--color1:#05b1b1;
+	--color2:#52339a; 
+	--color3:#9f53ccc4;
+}
+section{
+	padding: 100px 0px;
+}
+header{
+	padding: 200px 0px;
+}
+header,footer{
+background: url(../img/pattern.png),var(--color1);
+background: url(../img/pattern.png),-moz-linear-gradient(left,var(--color1) 0%,var(--color2) 100%);
+background: url(../img/pattern.png),-webkit-linear-gradient(left, var(--color1) 0%, var(--color2) 100%);
+background: url(../img/pattern.png),linear-gradient(to right,var(--color1) 0%,var(--color2) 100%);
+filter: url(../img/pattern.png), progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1), endColorstr=var(--color2),GradientType=1 );
+background-size: contain;
+}
+
+
+.icon_play{
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color: var(--color1);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	margin: 30px auto 30px;
+	transition: all 0.2s ease;
+}
+.icon_play:hover{
+	background-color: var(--color2);
+}
+.color3:hover{
+	color: var(--color2);
+}
+.color2:hover{
+	color: var(--color1);
+}
+.color1:hover{
+	color: var(--color2);
+}
+
+.icon_trinagle{
+	margin-left: 5px;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width:  10px 0px 10px 20px;
+	border-color: transparent transparent  transparent var(--bs-white);
+}
+.btn-block{
+display: block;
+margin: 0 auto;
+max-width: 200px;
+background-color: rgba(0, 255, 191, 0.712);
+color: rgba(10, 41, 28, 0.781);
+font-weight: 800;
+}
+.btn-block:hover{
+	background-color: var(--color2);
+}
+						.embed-container {
+							position: relative;
+							padding-bottom: 56.25%;
+							height: 0;
+							overflow: hidden;
+							max-width: 100%;
+						}
+
+						.embed-container iframe,
+						.embed-container object,
+						.embed-container embed {
+							position: absolute;
+							top: 0;
+							left: 0;
+							width: 100%;
+							height: 100%;
+						}
+
+				.color1{
+					color:var(--color1)
+				}		
+				.color2{
+					color:var(--color2)
+				}
+				.color3{
+					color:var(--color3)
+				}
+					
+		.block_curs,.accordion{
+		background-color:#eee;
+		margin:0px 0px 0px 0px;
+		padding:40px 0px 40px 0px;
+		}
+		.about i{
+			font-size: 30px;
+			color: var(--color2);
+		}
+		.block_list{
+			margin: 10px auto 20px;
+			height: 65px;
+			width: 65px;
+			border: 3px solid var(--color2);
+			border-radius: 50px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+					.line{
+						background-color:rgba(42, 163, 133, 0.801);
+							width:100px;
+							height: 3px;
+							margin: 15px auto 30px;
+						}	
+						.block-text {
+						font-size: 24px;
+						
+						padding:50px;
+						border: 3px solid var(--color1);
+						}
+			
+			.accordion-button:not(.collapsed){
+				background-color: #52339a;
+				color: aliceblue;
+			}
+			/* ПРОЦЕСС ОБУЧЕНИЯ*/
+			.block_img h5{
+				padding:30px;
+				border: 3px solid var(--color1);
+			} 
+			/*Автор*/
+			.block_author_img{
+				max-width: 200px;
+				padding-bottom: 0px;
+			}
+			.block_author{
+				padding-bottom: -30px;
+				background-color: #eee;
+			}
+			/* о курсах*/
+			.line-1{
+				width: 100px;
+				height: 3px; 
+				background-color: #52339a;
+				margin: 15px auto 30px;
+			}
+			.block_border1{
+				width: 150px;
+				height: 150px;
+				border: 1px solid var(--color1);
+				border-radius: 50%;
+			}
+			.block_button{
+				background-color: #52339a;
+				color: rgb(208, 255, 0);
+				margin: 15px auto 30px;
+				width: 200px;
+			}
+			.block_button:hover{
+				background-color:var(--color1);
+				color: rgb(216, 228, 223);
+			}
+			/*подвал*/
+			footer{
+				padding: 20px 0;
+			}
+			.block_border2{
+				display: inline-flex;
+				justify-content: center;
+				align-items: center;
+				width: 40px;
+				height: 40px;
+				border-radius: 50%;
+				border-color: rgb(237, 238, 243);
+
+			}
